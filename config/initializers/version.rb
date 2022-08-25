@@ -1,3 +1,9 @@
-# загружает значения конфигурации
+#  при вызове TestGuru.current_version возвращался код текущей версии приложения.
 
-config.load_defaults 6.1 
+class TestGuru
+	class << self
+		def current_version 
+			puts "0.1.0"
+		end
+	end
+end
