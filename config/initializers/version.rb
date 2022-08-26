@@ -3,7 +3,7 @@
 class TestGuru
 	class << self
 		def current_version 
-			puts "0.1.0"
+			"0.1.0"
 		end
 	end
 end
