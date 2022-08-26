@@ -1,4 +1,4 @@
-#  при вызове TestGuru.current_version возвращался код текущей версии приложения.
+#  при вызове TestGuru.current_version возвращаетсяся код текущей версии приложения.
 
 class TestGuru
 	class << self
