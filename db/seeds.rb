@@ -14,4 +14,4 @@ questions = Question.create([{body: 'Кто создатель языка про
 
 answers = Answer.create([{body: 'Юкихиро Мацумото', correct: true, question_id: questions[0].id}, {body: 'Брендан Эйх', correct: false, question_id: questions[0].id}, {body: 'Брендан Эйх', correct: true, question_id: questions[1].id}, {body: 'Юкихиро Мацумото', correct: false, question_id: questions[1].id}, {body: 'Бьёрн Страуструп', correct: true, question_id: questions[2].id}, {body: 'Юкихиро Мацумото', correct: false, question_id: questions[2].id}])
 
-users = User.create([{name: 'Alex'}, {name: 'Mike'}, {name: 'Nik'}])
+users = User.create(name: 'Alex')
