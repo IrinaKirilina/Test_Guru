@@ -5,6 +5,6 @@ class User < ApplicationRecord
   has_many :tests, through: :tests_users
 
   def users_tests(level)
-    Test.joins(:tests_users).where(level: level, user_id: self.id)
+    tests.where(level: level)
   end
 end
